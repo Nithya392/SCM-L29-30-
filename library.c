@@ -4,6 +4,7 @@ struct Book {
     char title[100];
     char author[50];
     float price;
+    int year;
 };
 int main() {
     struct Book b;
@@ -16,6 +17,9 @@ int main() {
 
     printf("Enter Book Price :\n ");
     scanf("%f", &b.price);
+
+    printf("Enter Published year :\n");
+    sacnf("%d" , &b.year);
 
     printf("\nBook Details :\n");
     printf("Title : %s\n", b.title);
