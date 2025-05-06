@@ -24,6 +24,7 @@ int main() {
     printf("\nBook Details :\n");
     printf("Title : %s\n", b.title);
     printf("Author: %s\n", b.author);
+    printf("Publised year: %d\n", b.year);
     printf("Price : %.2f\n", b.price);
 
     return 0;
