@@ -20,7 +20,8 @@ int main() {
     printf("Author: %s\n", b.author);
 <<<<<<< HEAD
 =======
-  
+    printf("Publised year: %d\n", b.year);
+    printf("Price : %.2f\n", b.price);
 
 >>>>>>> master
     return 0;

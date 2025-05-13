@@ -18,11 +18,6 @@ int main() {
     printf("\nBook Details :\n");
     printf("Title : %s\n", b.title);
     printf("Author: %s\n", b.author);
-<<<<<<< HEAD
-=======
-  
-
->>>>>>> master
     return 0;
 }
 
